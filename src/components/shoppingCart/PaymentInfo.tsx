@@ -110,7 +110,7 @@ const PaymentInfo = () => {
 
     const [promoValue, setPromoValue] = useState<string>("")
     const [promo, setPromo] = useState<number>(0)
-    const [cargoPrice, setCargoPrice] = useState<number>(5)
+    const [cargoPrice, setCargoPrice] = useState<number>(10)
     const [displayTooltip, setDisplayTooltip] = useState<boolean>(false)
  
     const cartProducts = useAppSelector(state => state.product.cartProducts)
@@ -131,7 +131,7 @@ const PaymentInfo = () => {
         if (percent === 100) {
             setCargoPrice(0)
         } else {
-            setCargoPrice(5)
+            setCargoPrice(10)
         }
     }, [percent])
 
@@ -148,10 +148,10 @@ const PaymentInfo = () => {
                     </Box>
                     <Box className={classes.subTotalBox}>
                         <Typography>Ups Shipping</Typography>
-                        <Typography>{percent === 100 ? `FREE` : `$ ${cargoPrice}`}</Typography>
+                        <Typography sx={{ color: "blue" }}>{percent === 100 ? `FREE` : `+$ ${cargoPrice}`}</Typography>
                     </Box>
                     <Box className={classes.motivationMainBox}>
-                        <label style={{ fontSize: ".5em", marginLeft: "auto", marginBottom: ".2rem" }} htmlFor='motivation'>{cargoPrice && `just $ ${freeCargo} to FREE cargo`}</label>
+                        <label style={{ fontSize: ".8em", marginLeft: "auto", marginBottom: ".2rem" }} htmlFor='motivation'>{cargoPrice && `just $ ${freeCargo} to FREE cargo`}</label>
                         <Box id="motivation" className={classes.motivation}>
                             <Box className={classes.color}></Box>
                         </Box>
