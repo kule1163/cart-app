@@ -14,5 +14,6 @@ I focus there cart functional. U can add items to cart, increase, decrease, dele
 -Material-ui <br />
 -Redux <br />
 -Redux-Toolkit <br />
+-GSAP
 
 
