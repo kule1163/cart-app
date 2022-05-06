@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+### `Please Visit`: https://batu-cart-app.netlify.app
 
 ## Project's Title
 CART APP
@@ -7,13 +7,12 @@ CART APP
 I focus there cart functional. U can add items to cart, increase, decrease, delete. Dont forget to use your discount code. I am going to help for it.
 
 ## Tecnologies
--React
--HTML
--CSS
--Typescript
--Material-ui
--Redux
--Redux-toolkit
+-React <br />
+-HTML <br />
+-CSS <br />
+-Typescript <br />
+-Material-ui <br />
+-Redux <br />
+-Redux-Toolkit <br />
 
-### `please look my website`: https://batu-cart-app.netlify.app
 
